@@ -1,0 +1,15 @@
+.date {
+    padding:10px;
+}
+
+.date p {
+    font-size:1.2em;
+}
+
+.full_page {
+    min-height: auto !important;
+    background: url('/assets/imgs/overlay.png'), url('/assets/imgs/overlay.png'), url("/assets/imgs/calendar.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color:white;
+}

@@ -1,0 +1,14 @@
+.profile_img {
+    border-radius: 50%;
+    max-height:75px;
+    max-width: 100%;
+    margin: 1em;
+}
+
+.title {
+    margin-top: 1em;
+}
+
+.speaker {
+    margin-top: 2em;
+}

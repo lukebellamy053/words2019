@@ -1,0 +1,11 @@
+.our_nav {
+    position: fixed !important;
+    left:0;
+    top:0;
+    width:100%;
+    z-index:10;
+}
+
+.bg {
+    background: #fefefe;
+}

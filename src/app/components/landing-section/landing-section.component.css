@@ -1,0 +1,26 @@
+.full_page {
+    background: url("/assets/imgs/overlay.png"), url("/assets/imgs/overlay.png"), url("/assets/imgs/words_2019_yellow.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.row {
+    margin:0;
+}
+
+.content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
+h1 {
+    font-size: 6em;
+}
+
+strong {
+    font-size: 2em;
+}

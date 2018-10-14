@@ -1,0 +1,42 @@
+<div id="dates" class="full_page">
+  <div class="content">
+    <div class="row">
+      <div class="col-12 col-md-6 ml-auto mr-auto">
+        <div class="row">
+          <div class="col-12 col-md-8 ml-auto mr-auto">
+            <h1>{{'dates title' | externalString}}</h1>
+          </div>
+        </div>
+        <section>
+          <div class="row">
+            <div class="col-12">
+              <div class="row" *ngFor="let group of groups; let i = index">
+                <div class="col-12">
+                  <h3>{{group.name}}</h3>
+                  <hr>
+                  <div class="row">
+                    <div class="col-12 col-md-4 date ml-auto mr-auto" *ngFor="let date of group.dates">
+                      <div>
+                        <h4>{{date.name}}</h4>
+                      </div>
+                      <div *ngIf="date.date">
+                        <p>Date: {{date.date | date: 'dd-LL-yyyy'}}</p>
+                      </div>
+                      <div *ngIf="date.start">
+                        <p>Start Date: {{date.start | date}}</p>
+                      </div>
+                      <div *ngIf="date.end">
+                        <p>End Date: {{date.end | date}}</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+  </div>
+</div>

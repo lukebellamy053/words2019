@@ -1,0 +1,7 @@
+section {
+    text-align: left;
+}
+
+.list-group-item {
+    text-transform: capitalize;
+}

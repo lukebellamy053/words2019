@@ -1,0 +1,22 @@
+<div id="speakers" class="full_page even_page">
+  <div class="content">
+    <div class="row">
+      <div class="col-12 col-md-8 ml-auto mr-auto">
+        <h1>Invited Speakers</h1>
+        <section>
+          <div class="row">
+            <div class="col-12 col-md-4 ml-auto mr-auto speaker" *ngFor="let speaker of speakers">
+              <img class="profile_img" [src]="speaker.img"/>
+              <a [href]="speaker.website" target="_blank">
+                <h5>{{speaker.name}}</h5>
+              </a>
+              <hr>
+              <h5 class="title">{{speaker.title}}</h5>
+              <pre [innerHTML]="speaker.bio"></pre>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
