@@ -148,7 +148,7 @@ export const content = {
             'location': 'Kiel'
           },
           {
-            'name': 'Jarkko PeltomÃ¤ki',
+            'name': 'Jarkko Peltomäki',
             'location': 'Turku'
           },
           {
