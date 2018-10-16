@@ -7,5 +7,18 @@
 }
 
 .bg {
-    background: #fefefe;
+    background: rgb(54,17,99);
+}
+
+.nav-link {
+    color: rgb(235,235,235) !important;
+}
+
+.navbar-light .navbar-brand {
+    color: rgb(235,235,235) !important;
+    font-weight: 400 !important;
+}
+
+img.header {
+    max-height:50px;
 }
