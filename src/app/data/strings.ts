@@ -97,17 +97,17 @@ export const content = {
           {
             'name': 'Robert Mercas',
             'location': 'Loughborough',
-            'position': 'co-chair'
+            'position': 'Co-Chair'
           },
           {
             'name': 'Daniel Reidenbach',
             'location': 'Loughborough',
-            'position': 'co-chair'
+            'position': 'Co-Chair'
           }
         ],
         'members': [
           {
-            'name': 'Marie-Pierre BÃ©al',
+            'name': 'Marie-Pierre Béal',
             'location': 'Paris'
           },
           {
@@ -115,7 +115,7 @@ export const content = {
             'location': 'Montreal'
           },
           {
-            'name': 'Ã‰milie Charlier',
+            'name': 'Émilie Charlier',
             'location': 'LiÃ¨ge'
           },
           {
@@ -135,7 +135,7 @@ export const content = {
             'location': 'Murdoch'
           },
           {
-            'name': 'Å tÄ›pÃ¡n Holub',
+            'name': 'Štěpán Holub',
             'location': 'Prague'
           },
           {
@@ -152,7 +152,7 @@ export const content = {
             'location': 'Turku'
           },
           {
-            'name': 'Edita PelantovÃ¡',
+            'name': 'Edita Pelantová',
             'location': 'Prague'
           },
           {
@@ -171,69 +171,98 @@ export const content = {
       },
       {
         "name": "Steering Committee",
-        "chairs":[
-            {
-            "name": "Juhani KarhumÃ¤ki",
-            "location": "Turku, Finland",
+        "chairs": [
+          {
+            "name": "Juhani Karhumäki",
+            "location": "Turku",
             "position": "Chair"
           }
         ],
         "members": [
           {
-            "name": "ValÃ©rie BerthÃ©",
-            "location": "Paris, France"
+            "name": "Valérie Berthé",
+            "location": "Paris"
           },
           {
-            "name": "SreÄko Brlek",
-            "location": "Montreal, Canada"
+            "name": "Srečko Brlek",
+            "location": "Montreal"
           },
           {
             "name": "Julien Cassaigne",
-            "location": "Marseille, France"
+            "location": "Marseille"
           },
           {
             "name": "Maxime Crochemore",
-            "location": "London, United Kingdom"
+            "location": "London"
           },
           {
             "name": "Aldo de Luca",
-            "location": "Naples, Italy"
+            "location": "Naples"
           },
           {
             "name": "Anna Frid",
-            "location": "Marseille, France"
+            "location": "Marseille"
           },
           {
-            "name": "Jean NÃ©raud",
-            "location": "Rouen, France"
+            "name": "Jean Néraud",
+            "location": "Rouen"
           },
           {
             "name": "Dirk Nowotka",
-            "location": "Kiel, Germany"
+            "location": "Kiel"
           },
           {
-            "name": "Edita PelantovÃ¡",
-            "location": "Prague, Czech Republic"
+            "name": "Edita Pelantová",
+            "location": "Prague"
           },
           {
             "name": "Dominique Perrin",
-            "location": "Marne-la-VallÃ©e, France"
+            "location": "Marne-la-Vallée"
           },
           {
             "name": "Antonio Restivo",
-            "location": "Palermo, Italy"
+            "location": "Palermo"
           },
           {
             "name": "Christophe Reutenauer",
-            "location": "Montreal, Canada"
+            "location": "Montreal"
           },
           {
             "name": "Jeffrey Shallit",
-            "location": "Waterloo, Canada"
+            "location": "Waterloo"
           },
           {
             "name": "Mikhail Volkov",
-            "location": "Yekaterinburg, Russia"
+            "location": "Yekaterinburg"
+          }
+        ]
+      },
+      {
+        "name": "Organising Committee",
+        "chairs": [
+          {
+            "name": "Robert Mercas",
+            "location": "Loughborough",
+            "position": "Co-Chair"
+          },
+          {
+            "name": "Daniel Reidenbach",
+            "location": "Loughborough",
+            "position": "Co-Chair"
+          }
+        ],
+        "members": [
+          {
+            "name": "Laura K. Hutchinson",
+            "location": "Loughborough"
+          },
+          {
+            "name": "Manfred Kufleitner",
+            "location": "Loughborough"
+          },
+          {
+            "name": "Alex M. Smith",
+            "location": "Loughborough"
           }
         ]
       }
