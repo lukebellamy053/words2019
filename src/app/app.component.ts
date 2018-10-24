@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ExternalStringPipe } from './pipes/external-string.pipe';
 
 declare const $:any;
 
@@ -9,6 +10,7 @@ declare const $:any;
 })
 export class AppComponent implements OnInit {
   title = 'Words 2019';
+  dates = [];
 
   ngOnInit() {
     $(document).on('click', 'a[href^="#"]', function(event) {
@@ -17,6 +19,10 @@ export class AppComponent implements OnInit {
       $('html, body').animate({
         scrollTop: $($.attr(this, 'href')).offset().top
       }, 500);
+    });
+
+    new ExternalStringPipe().transform('dates groups').forEach((group) => {
+      this.dates = this.dates.concat(group.dates);
     });
   }
 }
