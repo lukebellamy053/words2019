@@ -7,8 +7,7 @@
 }
 
 .full_page {
-    min-height: auto !important;
-    background: url('/assets/imgs/overlay.png'), url('/assets/imgs/overlay.png'), url("/assets/imgs/calendar.jpg");
+    background: url("/assets/imgs/overlay.png"), url('/assets/imgs/overlay.png'), url('/assets/imgs/overlay.png'), url("/assets/imgs/words_2019_yellow.jpg");
     background-size: cover;
     background-attachment: fixed;
     color:white;

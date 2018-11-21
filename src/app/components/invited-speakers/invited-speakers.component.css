@@ -12,3 +12,17 @@
 .speaker {
     margin-top: 2em;
 }
+
+.pointer {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    margin-top:10px;
+}
+
+.pointer:hover {
+    cursor: pointer !important;
+}
+
+.pointer[aria-expanded=true] .fa-caret-down {
+    transform: rotate(180deg);
+    color: rgba(21,21,21,0.4);
+}

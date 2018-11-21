@@ -27,7 +27,6 @@
 
 
 .full_page {
-    min-height: 100vh;
     background: white;
     padding-top:56px;
     position: relative;
@@ -60,4 +59,10 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
+}
+
+.v-rule {
+    height: 50px;
+    width:1px;
+    background:white;
 }

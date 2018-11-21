@@ -2,6 +2,8 @@ export const manea_bio = `Some content here`;
 
 export const puzynina_bio = `Some content here`;
 
+export const restivo_bio = `Some content here`;
+
 export const richomme_bio = `Some content here`;
 
 export const saarela_bio = `Some content here`;

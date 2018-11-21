@@ -1,0 +1,17 @@
+<div id="sponsors" class="full_page even_page">
+  <div class="content">
+    <div class="row">
+      <div class="col-12 col-md-8 ml-auto mr-auto">
+        <h1>Sponsors</h1>
+        <section>
+          <div class="row">
+            <div class="col-12 col-md-4 ml-auto mr-auto sponsor" *ngFor="let sponsor of sponsors">
+              <h5>{{sponsor.name}}</h5>
+              <img [src]="sponsor.logo" />
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>

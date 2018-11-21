@@ -1,5 +1,6 @@
 .full_page {
-    background: url("/assets/imgs/overlay.png"), url("/assets/imgs/overlay.png"), url("/assets/imgs/words_2019_yellow.jpg");
+    min-height: 100vh;
+    background:  url("/assets/imgs/overlay.png"), url("/assets/imgs/overlay.png"), url("/assets/imgs/overlay.png"), url("/assets/imgs/lboro_1.jpg");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;

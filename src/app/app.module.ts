@@ -10,6 +10,7 @@ import { TutorialsComponent } from './components/tutorials/tutorials.component';
 import { CommitteesComponent } from './components/committees/committees.component';
 import { ExternalStringPipe } from './pipes/external-string.pipe';
 import { MarkdownModule } from 'angular2-markdown';
+import { SponsorsComponent } from './components/sponsors/sponsors/sponsors.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,6 +22,7 @@ import { MarkdownModule } from 'angular2-markdown';
     TutorialsComponent,
     CommitteesComponent,
     ExternalStringPipe,
+    SponsorsComponent,
   ],
   imports: [
     BrowserModule,

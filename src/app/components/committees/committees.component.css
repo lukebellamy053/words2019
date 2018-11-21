@@ -1,10 +1,39 @@
 .full_page {
-    background: url("/assets/imgs/overlay.png"), url("/assets/imgs/overlay.png"), url("/assets/imgs/overlay.png"), url("/assets/imgs/conference_room.jpg");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    color:white;
 }
 .member {
     padding:0.75em;
+}
+
+.member-name {
+    font-size: 1.25em;
+    font-weight: 400;
+    margin-bottom: 0.25em;
+}
+
+.member-location {
+    font-size: 1em;
+    margin-bottom: 0;
+}
+
+.member-position {
+    font-size: 0.75em;
+    margin-bottom: 0;
+}
+
+.committee-member {
+    display: inline-block;
+    margin: 5px 25px;
+    vertical-align: top;
+}
+
+section {
+    padding-bottom:10px;
+    border-bottom: 1px solid rgba(21,21,21,0.1);
+}
+
+section.last {
+    border-bottom: none;
 }

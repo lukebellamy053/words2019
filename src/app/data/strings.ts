@@ -1,11 +1,15 @@
 import { papers, submissions } from './submissions';
-import { manea_bio, puzynina_bio, richomme_bio, saarela_bio, vuskovic_bio } from './bios';
+import { manea_bio, puzynina_bio, restivo_bio, richomme_bio, saarela_bio, vuskovic_bio } from './bios';
 
 export const content = {
   'title': 'Words 2019',
   'subtitle': 'Some content here',
   'location': 'Loughborough University, England',
-  'date': 'Coming Soon',
+  'date': '2019 September 9-13',
+  'images' : {
+    'welcome': ['/assets/imgs/lboro_1.jpg'],
+    'dates': []
+  },
   'submissions': {
     'papers': {
       'title': 'Call For Papers',
@@ -41,8 +45,7 @@ export const content = {
         'dates': [
           {
             'name': 'Conference',
-            'start': 1567983600000,
-            'end': 1568329200000
+            'text': '9-13th September 2019'
           }
         ]
       }
@@ -56,21 +59,44 @@ export const content = {
         'name': 'Florin Manea',
         'title': 'content TBA',
         'website': 'http://flmanea.blogspot.com',
-        'bio': manea_bio
+        'bio': manea_bio,
+        'sections': [
+          {
+            'title': 'Test Title',
+            'text': 'This is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\n'
+          },
+          {
+            'title': 'Test Title 2',
+            'text': 'This is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\n'
+          }
+        ]
       },
       {
         'img': '/assets/imgs/placeholder.png',
         'name': 'Svetlana Puzynina',
         'title': 'content TBA',
         'website': 'http://math.nsc.ru/~puzynina/',
-        'bio': puzynina_bio
+        'bio': puzynina_bio,
+        'sections': [
+          {
+            'title': 'Test Title',
+            'text': 'This is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\n'
+          }
+        ]
+      },
+      {
+        'img': '/assets/imgs/placeholder.png',
+        'name': 'Antonio Restivo',
+        'title': 'content TBA',
+        'website': 'https://scholar.google.it/citations?user=QkUS2AwAAAAJ&hl=en',
+        'bio': restivo_bio
       },
       {
         'img': '/assets/imgs/placeholder.png',
         'name': 'Gwenaël Richomme',
         'title': 'content TBA',
         'website': 'http://www.lirmm.fr/~richomme/',
-        'bio': richomme_bio
+        'bio': 'something to say'
       },
       {
         'img': '/assets/imgs/placeholder.png',
@@ -86,6 +112,16 @@ export const content = {
         'website': 'https://engineering.leeds.ac.uk/staff/249/kristina_vuskovic',
         'bio': vuskovic_bio
       }
+    ],
+    'abstract': [
+      {
+        'title': 'A header',
+        'text': 'This is a large amount of text that talks about something or other'
+      },
+      {
+        'title': 'A header 2',
+        'text': 'This is a second large amount of text that talks about something or other'
+      }
     ]
   },
   'committees': {
@@ -97,17 +133,17 @@ export const content = {
           {
             'name': 'Robert Mercas',
             'location': 'Loughborough',
-            'position': 'co-chair'
+            'position': 'Co-Chair'
           },
           {
             'name': 'Daniel Reidenbach',
             'location': 'Loughborough',
-            'position': 'co-chair'
+            'position': 'Co-Chair'
           }
         ],
         'members': [
           {
-            'name': 'Marie-Pierre BÃ©al',
+            'name': 'Marie-Pierre Béal',
             'location': 'Paris'
           },
           {
@@ -115,8 +151,8 @@ export const content = {
             'location': 'Montreal'
           },
           {
-            'name': 'Ã‰milie Charlier',
-            'location': 'LiÃ¨ge'
+            'name': 'Émilie Charlier',
+            'location': 'Liège'
           },
           {
             'name': 'Volker Diekert',
@@ -135,29 +171,38 @@ export const content = {
             'location': 'Murdoch'
           },
           {
-            'name': 'Å tÄ›pÃ¡n Holub',
+            'name': 'Štěpán Holub',
             'location': 'Prague'
           },
           {
             'name': 'Shunsuke Inenaga',
             'location': 'Kyushu'
           },
-
+          {
+            'name': 'Robert Mercas',
+            'location': 'Loughborough',
+            'position': 'Co-Chair'
+          },
           {
             'name': 'Dirk Nowotka',
             'location': 'Kiel'
           },
           {
-            'name': 'Jarkko PeltomÃ¤ki',
+            'name': 'Jarkko Peltomäki',
             'location': 'Turku'
           },
           {
-            'name': 'Edita PelantovÃ¡',
+            'name': 'Edita Pelantová',
             'location': 'Prague'
           },
           {
             'name': 'Narad Rampersad',
             'location': 'Winnipeg'
+          },
+          {
+            'name': 'Daniel Reidenbach',
+            'location': 'Loughborough',
+            'position': 'Co-Chair'
           },
           {
             'name': 'Jeffrey Shallit',
@@ -171,72 +216,107 @@ export const content = {
       },
       {
         "name": "Steering Committee",
-        "chairs":[
-            {
-            "name": "Juhani KarhumÃ¤ki",
-            "location": "Turku, Finland",
-            "position": "Chair"
-          }
-        ],
         "members": [
           {
-            "name": "ValÃ©rie BerthÃ©",
-            "location": "Paris, France"
+            "name": "Valérie Berthé",
+            "location": "Paris"
           },
           {
-            "name": "SreÄko Brlek",
-            "location": "Montreal, Canada"
+            "name": "Srečko Brlek",
+            "location": "Montreal"
           },
           {
             "name": "Julien Cassaigne",
-            "location": "Marseille, France"
+            "location": "Marseille"
           },
           {
             "name": "Maxime Crochemore",
-            "location": "London, United Kingdom"
+            "location": "London"
           },
           {
             "name": "Aldo de Luca",
-            "location": "Naples, Italy"
+            "location": "Naples"
           },
           {
             "name": "Anna Frid",
-            "location": "Marseille, France"
+            "location": "Marseille"
           },
           {
-            "name": "Jean NÃ©raud",
-            "location": "Rouen, France"
+            "name": "Juhani Karhumäki",
+            "location": "Turku",
+            "position": "Chair"
+          },
+          {
+            "name": "Jean Néraud",
+            "location": "Rouen"
           },
           {
             "name": "Dirk Nowotka",
-            "location": "Kiel, Germany"
+            "location": "Kiel"
           },
           {
-            "name": "Edita PelantovÃ¡",
-            "location": "Prague, Czech Republic"
+            "name": "Edita Pelantová",
+            "location": "Prague"
           },
           {
             "name": "Dominique Perrin",
-            "location": "Marne-la-VallÃ©e, France"
+            "location": "Marne-la-Vallée"
           },
           {
             "name": "Antonio Restivo",
-            "location": "Palermo, Italy"
+            "location": "Palermo"
           },
           {
             "name": "Christophe Reutenauer",
-            "location": "Montreal, Canada"
+            "location": "Montreal"
           },
           {
             "name": "Jeffrey Shallit",
-            "location": "Waterloo, Canada"
+            "location": "Waterloo"
           },
           {
             "name": "Mikhail Volkov",
-            "location": "Yekaterinburg, Russia"
+            "location": "Yekaterinburg"
+          }
+        ]
+      },
+      {
+        "name": "Organising Committee",
+        "members": [
+          {
+            "name": "Joel D. Day",
+            "location": "Loughborough"
+          },
+          {
+            "name": "Laura K. Hutchinson",
+            "location": "Loughborough"
+          },
+          {
+            "name": "Manfred Kufleitner",
+            "location": "Loughborough"
+          },
+          {
+            "name": "Robert Mercas",
+            "location": "Loughborough",
+            "position": "Co-Chair"
+          },
+          {
+            "name": "Daniel Reidenbach",
+            "location": "Loughborough",
+            "position": "Co-Chair"
+          },
+          {
+            "name": "Alex M. Smith",
+            "location": "Loughborough"
           }
         ]
       }
     ]
-  }
+  },
+  'sponsors': [
+    {
+      name: 'ATCS (European Association for Theoretical Computer Science)',
+      logo: '/assets/imgs/sponsors/Eatcslogo.jpg'
+    }
+  ]
 };

@@ -5,16 +5,34 @@
         <h1>Invited Speakers</h1>
         <section>
           <div class="row">
-            <div class="col-12 col-md-4 ml-auto mr-auto speaker" *ngFor="let speaker of speakers">
-              <img class="profile_img" [src]="speaker.img"/>
+            <div class="col-12 col-md-4 ml-auto mr-auto speaker" *ngFor="let speaker of speakers;let j = index">
+              <img class="profile_img" [src]="speaker.img" />
               <a [href]="speaker.website" target="_blank">
                 <h5>{{speaker.name}}</h5>
               </a>
               <hr>
               <h5 class="title">{{speaker.title}}</h5>
               <pre [innerHTML]="speaker.bio"></pre>
+              <div class="row" *ngFor="let content of speaker.sections;let i = index">
+                <div class="col-12">
+                  <h5 class="pointer" data-toggle="collapse" [attr.data-target]="getKey((j * 5 + i),true)" aria-expanded="false"
+                    [attr.aria-controls]="getKey((j * 5 + i),true)">
+                    {{content.title}}
+                    <i class="fas fa-caret-down"></i>
+                </h5>
+                </div>
+                <div class="col-12">
+                  <div class="collapse" [id]="getKey((j * 5 + i))">
+                    <div class="card card-body">
+                      {{content.text}}
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
+          <div class="row" style="min-height:20px;"></div>
+          
         </section>
       </div>
     </div>

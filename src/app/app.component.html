@@ -6,5 +6,23 @@
         <app-important-dates></app-important-dates>
         <app-invited-speakers></app-invited-speakers>
         <app-committees></app-committees>
+        <app-sponsors></app-sponsors>
+        <div style="padding-bottom: 69px"></div>
+        <div class="floating-footer row">
+            <div class="footer-content">
+                <a class="image" href="https://lboro.ac.uk" target="_blank">
+                    <img src="/assets/imgs/LU_A4_RGB.png" class="header" />
+                </a>
+                <div class="dates" style="display: inline-block;">
+                    <div class="date" *ngFor="let date of dates">
+                        <p>{{date.name}}</p>
+                        <p *ngIf="date.text">{{date.text}}</p>
+                        <p *ngIf="date.date">{{date.date | date}}</p>
+                        <p *ngIf="date.start">Start: {{date.start | date}}</p>
+                        <p *ngIf="date.end">End: {{date.end | date}}</p>
+                    </div>
+                </div>
+            </div>            
+        </div>
     </div>
 </div>

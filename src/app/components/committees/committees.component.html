@@ -3,22 +3,14 @@
     <div class="row">
       <div class="col-12">
         <h1>Committees</h1>
-        <div class="row" *ngFor="let committee of committees">
-          <div class="col-12 ml-auto mr-auto">
+        <div class="row" *ngFor="let committee of committees; let i = index">
+          <div class="col-10 ml-auto mr-auto">
             <h3>{{committee.name}}</h3>
-            <section>
-              <div class="row">
-                <div *ngFor="let member of committee.chairs" class="col-12 col-md-4 member ml-auto mr-auto">
-                  <h4>{{member.name}}</h4>
-                  <h5>{{member.location}}</h5>
-                  <h6>{{member.position}}</h6>
-                </div>
-              </div>
-              <div class="row">
-                <div *ngFor="let member of committee.members" class="col-12 col-md-4 member ml-auto mr-auto">
-                  <h4>{{member.name}}</h4>
-                  <h5>{{member.location}}</h5>
-                </div>
+            <section [class.last]="i + 1 == committees.length">
+              <div *ngFor="let member of committee.members" class="committee-member">
+                <p class="member-name">{{member.name}}</p>
+                <p class="member-location">{{member.location}}</p>
+                <p class="member-position">{{member.position}}</p>
               </div>
             </section>
           </div>
