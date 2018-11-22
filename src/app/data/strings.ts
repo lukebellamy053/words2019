@@ -56,6 +56,7 @@ export const content = {
     'speakyBois': [
       {
         'img': '/assets/imgs/placeholder.png',
+        'deceased': true,
         'name': 'Florin Manea',
         'title': 'content TBA',
         'website': 'http://flmanea.blogspot.com',

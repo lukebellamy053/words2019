@@ -26,3 +26,17 @@
     transform: rotate(180deg);
     color: rgba(21,21,21,0.4);
 }
+
+.deceased {
+    background: black;
+    color: white !important;
+    opacity:0.5
+}
+
+.deceased .card {
+    color: black;
+}
+
+.deceased pre {
+    color:white;
+}

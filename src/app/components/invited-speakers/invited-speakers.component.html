@@ -5,7 +5,7 @@
         <h1>Invited Speakers</h1>
         <section>
           <div class="row">
-            <div class="col-12 col-md-4 ml-auto mr-auto speaker" *ngFor="let speaker of speakers;let j = index">
+            <div class="col-12 col-md-4 ml-auto mr-auto speaker" *ngFor="let speaker of speakers;let j = index" [class.deceased]="speaker.deceased">
               <img class="profile_img" [src]="speaker.img" />
               <a [href]="speaker.website" target="_blank">
                 <h5>{{speaker.name}}</h5>
@@ -32,7 +32,6 @@
             </div>
           </div>
           <div class="row" style="min-height:20px;"></div>
-          
         </section>
       </div>
     </div>
