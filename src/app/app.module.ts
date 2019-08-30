@@ -10,7 +10,11 @@ import { TutorialsComponent } from './components/tutorials/tutorials.component';
 import { CommitteesComponent } from './components/committees/committees.component';
 import { ExternalStringPipe } from './pipes/external-string.pipe';
 import { MarkdownModule } from 'angular2-markdown';
-import { SponsorsComponent } from './components/sponsors/sponsors/sponsors.component';
+import { SponsorsComponent } from './components/sponsors/sponsors.component';
+import { AcceptedPapersComponent } from './components/accepted-papers/accepted-papers.component';
+import { ConferenceInfoComponent } from './components/conference-info/conference-info.component';
+import { MathjaxComponent } from './components/mathjax/mathjax.component';
+import { ParticipantsComponent } from './components/participants/participants.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,6 +27,10 @@ import { SponsorsComponent } from './components/sponsors/sponsors/sponsors.compo
     CommitteesComponent,
     ExternalStringPipe,
     SponsorsComponent,
+    AcceptedPapersComponent,
+    ConferenceInfoComponent,
+    MathjaxComponent,
+    ParticipantsComponent
   ],
   imports: [
     BrowserModule,

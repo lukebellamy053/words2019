@@ -2,28 +2,84 @@
   <div class="content">
     <div class="row">
       <div class="col-12 col-md-8 ml-auto mr-auto">
-        <h1>Submissions</h1>
+        <h1>For Authors</h1>
+        <section class="scope">
+          <app-accepted-papers></app-accepted-papers>
+        </section>
         <section class="scope">
           <div class="row">
             <div class="col-12">
-              <h3>{{'submissions papers title' | externalString}}</h3>
+              <h3
+                class="pointer"
+                data-toggle="collapse"
+                data-target="#extraInfo"
+                aria-expanded="false"
+                aria-controls="#extraInfo"
+              >
+                {{ "submissions extra title" | externalString }}
+                <i class="fas fa-caret-down"></i>
+              </h3>
             </div>
           </div>
           <div class="row">
             <div class="col-12">
-              <div innerHtml="{{'submissions papers content' | externalString}}"></div>
+              <div
+                class="collapse"
+                id="extraInfo"
+                innerHtml="{{ 'submissions extra content' | externalString }}"
+              ></div>
+            </div>
+          </div>
+        </section>
+        <section class="scope">
+          <div class="row">
+            <div class="col-12">
+              <h3
+                class="pointer"
+                data-toggle="collapse"
+                data-target="#callForPapers"
+                aria-expanded="false"
+                aria-controls="#callForPapers"
+              >
+                {{ "submissions papers title" | externalString }}
+                <i class="fas fa-caret-down"></i>
+              </h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div
+                class="collapse"
+                id="callForPapers"
+                innerHtml="{{ 'submissions papers content' | externalString }}"
+              ></div>
             </div>
           </div>
         </section>
         <section class="format">
           <div class="row">
             <div class="col-12">
-              <h3>{{'submissions submission title' | externalString}}</h3>
+              <h3
+                class="pointer"
+                data-toggle="collapse"
+                data-target="#paperSubmission"
+                aria-expanded="false"
+                aria-controls="#paperSubmission"
+              >
+                {{ "submissions submission title" | externalString }}
+                <i class="fas fa-caret-down"></i>
+              </h3>
             </div>
           </div>
           <div class="row">
             <div class="col-12">
-              <div innerHtml="{{'submissions submission content' | externalString}}"></div>
+              <div
+                class="collapse"
+                id="paperSubmission"
+                innerHtml="{{
+                  'submissions submission content' | externalString
+                }}"
+              ></div>
             </div>
           </div>
         </section>

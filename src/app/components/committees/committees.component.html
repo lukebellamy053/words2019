@@ -7,7 +7,7 @@
           <div class="col-10 ml-auto mr-auto">
             <h3>{{committee.name}}</h3>
             <section [class.last]="i + 1 == committees.length">
-              <div *ngFor="let member of committee.members" class="committee-member">
+              <div *ngFor="let member of committee.members" class="committee-member"  [class.deceased]="member.deceased">
                 <p class="member-name">{{member.name}}</p>
                 <p class="member-location">{{member.location}}</p>
                 <p class="member-position">{{member.position}}</p>

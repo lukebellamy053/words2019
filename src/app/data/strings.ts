@@ -1,11 +1,13 @@
-import { papers, submissions } from './submissions';
+import { papers, submissions, extra } from './submissions';
 import { manea_bio, puzynina_bio, restivo_bio, richomme_bio, saarela_bio, vuskovic_bio } from './bios';
+import { manea_abstract, puzynina_abstract, restivo_abstract, richomme_abstract, saarela_abstract, vuskovic_abstract } from './abstracts';
+import { registration, location } from './conference_info';
 
 export const content = {
   'title': 'Words 2019',
-  'subtitle': 'Some content here',
+  'subtitle': '12th International Conference on Words',
   'location': 'Loughborough University, England',
-  'date': '2019 September 9-13',
+  'date': '2019 September 9-13th',
   'images' : {
     'welcome': ['/assets/imgs/lboro_1.jpg'],
     'dates': []
@@ -19,6 +21,185 @@ export const content = {
       'title': 'Paper Submissions',
       'content': submissions
     },
+    'extra': {
+      'title': 'Conference Posters',
+      'content': extra
+    },
+    'accepted_papers': {
+      'title': 'Accepted Papers',
+      'papers': [
+        
+        {
+          'authors': [
+      'Adrian Atanasiu',
+      'Ghajendran Poovanandran',
+      'Wen Chean Teh '
+    ],
+    'title': 'Parikh Determinants'
+    },
+
+{
+          'authors': [
+      'Aseem Baranwal',
+      'Jeffrey Shallit '
+    ],
+    'title': 'Critical exponent of infinite balanced words via the Pell number system'
+  },
+
+{
+          'authors': [
+      'Aseem Baranwal',
+      'Jeffrey Shallit '
+    ],
+    'title': 'Repetitions in infinite palindrome-rich words'
+  },
+
+{
+          'authors': [
+      'Amanda Burcroff',
+      'Eric Winsor '
+    ],
+    'title': 'Generalized Lyndon Factorizations of Infinite Words'
+  },
+
+{
+          'authors': [
+      'Arturo Carpi',
+      'Flavio Dalessandro '
+    ],
+    'title': 'On the commutative equivalence of bounded semi-linear codes'
+  },
+
+{
+          'authors': [
+      'Trevor Clokie',
+      'Daniel Gabric',
+      'Jeffrey Shallit '
+    ],
+    'title': 'Circularly squarefree words and unbordered conjugates: a new approach'
+  },
+
+{
+          'authors': [
+      'James D. Currie',
+      'Lucas Mol '
+    ],
+    'title': 'The undirected repetition threshold'
+  },
+
+{
+          'authors': [
+      'Alessandro De Luca',
+      'Alma D\'Aniello '
+    ],
+    'title': 'Characteristic parameters and special trapezoidal words'
+  },
+
+{
+          'authors': [
+      'Francesco Dolce',
+      'Dominique Perrin '
+    ],
+    'title': 'Return words and bifix codes in eventually dendric sets'
+  },
+
+{
+          'authors': [
+      'Marisa Gaetz',
+      'Caleb Ji '
+    ],
+    'title': 'Enumeration and Extensions of Word-representable Graphs'
+  },
+
+{
+          'authors': [
+      'Cyril Gavoille',
+      'Ghazal Kachigar',
+      'Gilles Zémor '
+    ],
+    'title': 'Localisation-Resistant Random Words with Small Alphabet'
+  },
+
+{
+          'authors': [
+      'Vladimir Gusev',
+      'Elena Pribavkina '
+    ],
+    'title': 'On codeword lengths guaranteeing synchronization'
+  },
+
+{
+          'authors': [
+      'Štěpán Holub '
+    ],
+    'title': 'Binary intersection revisited'
+  },
+
+{
+          'authors': [
+      'Václav Košík',
+      'Štěpán Starosta '
+    ],
+    'title': 'On substitutions closed under derivation: examples'
+  },
+
+{
+          'authors': [
+            'Marie Lejeune',
+            'Michel Rigo',
+            'Matthieu Rosenfeld '
+          ],
+          'title': 'Templates for the k-binomial complexity of the Tribonacci word'
+        },
+
+{
+          'authors': [
+      'Kateřina Medková '
+    ],
+    'title': 'Derivated sequences of Arnoux--Rauzy sequences'
+  },
+
+{
+          'authors': [
+      'Tim Ng',
+      'Pascal Ochem',
+      'Jeffrey Shallit',
+      'Narad Rampersad '
+    ],
+    'title': 'New results on pseudosquare avoidance'
+  },
+
+{
+          'authors': [
+      'Jarkko Peltomäki',
+      'Markus Whiteland '
+    ],
+    'title': 'Every nonnegative real number is a critical abelian exponent'
+  },
+
+{
+          'authors': [
+      'Josef Rukavicka '
+    ],
+    'title': 'Construction Of A Rich Word Containing Given Two Factors'
+  },
+
+{
+          'authors': [
+      'Andrew Ryzhikov '
+    ],
+    'title': 'Mortality and Synchronization of Unambiguous Finite Automata'
+  },
+
+{
+          'authors': [
+      'Luigi Santocanale '
+    ],
+    'title': 'On discrete idempotent paths'
+  },
+        
+      ]
+    }
   },
   'dates': {
     'title': 'Important Dates',
@@ -28,11 +209,11 @@ export const content = {
         'dates': [
           {
             'name': 'Deadline For Submission',
-            'date': 1555023600000
+            'date': 1556013599000
           },
           {
             'name': 'Notification To Authors',
-            'date': 1558306800000
+            'date': 1558569599000
           },
           {
             'name': 'Camera-ready Version',
@@ -55,63 +236,94 @@ export const content = {
     'title': 'Invited Speakers',
     'speakyBois': [
       {
-        'img': '/assets/imgs/placeholder.png',
-        'deceased': true,
+        'img': '/assets/imgs/speakers/FM-small.jpg',
         'name': 'Florin Manea',
-        'title': 'content TBA',
         'website': 'http://flmanea.blogspot.com',
-        'bio': manea_bio,
         'sections': [
           {
-            'title': 'Test Title',
-            'text': 'This is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\n'
+            'title': 'Bio',
+            'text': manea_bio,
           },
           {
-            'title': 'Test Title 2',
-            'text': 'This is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\n'
+            'title': 'Matching Patterns with Variables',
+            'text': manea_abstract,
           }
         ]
       },
       {
-        'img': '/assets/imgs/placeholder.png',
+        'img': '/assets/imgs/speakers/SP-small.jpg',
         'name': 'Svetlana Puzynina',
-        'title': 'content TBA',
         'website': 'http://math.nsc.ru/~puzynina/',
-        'bio': puzynina_bio,
         'sections': [
           {
-            'title': 'Test Title',
-            'text': 'This is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\nThis is some test content\n'
+            'title': 'Bio',
+            'text': puzynina_bio,
+          },
+          {
+            'title': 'Abelian properties of words',
+            'text': puzynina_abstract,
           }
         ]
       },
       {
-        'img': '/assets/imgs/placeholder.png',
+        'img': '/assets/imgs/speakers/AR-small.jpg',
         'name': 'Antonio Restivo',
-        'title': 'content TBA',
         'website': 'https://scholar.google.it/citations?user=QkUS2AwAAAAJ&hl=en',
-        'bio': restivo_bio
+        'sections': [
+          {
+            'title': 'Bio',
+            'text': restivo_bio,
+          },
+          {
+            'title': 'On Sets of Words of Rank Two',
+            'text': restivo_abstract,
+          }
+        ]
       },
       {
-        'img': '/assets/imgs/placeholder.png',
+        'img': '/assets/imgs/speakers/GR-small.jpg',
         'name': 'Gwenaël Richomme',
-        'title': 'content TBA',
         'website': 'http://www.lirmm.fr/~richomme/',
-        'bio': 'something to say'
+        'sections': [
+          {
+            'title': 'Bio',
+            'text': richomme_bio,
+          },
+          {
+            'title': 'S-adicity and property preserving morphisms',
+            'text': richomme_abstract,
+          }
+        ]
       },
       {
-        'img': '/assets/imgs/placeholder.png',
+        'img': '/assets/imgs/speakers/AS-small.jpg',
         'name': 'Aleksi Saarela',
-        'title': 'content TBA',
         'website': 'http://users.utu.fi/amsaar/',
-        'bio': saarela_bio
+        'sections': [
+          {
+            'title': 'Bio',
+            'text': saarela_bio,
+          },
+          {
+            'title': 'Independent Systems of Word Equations: From Ehrenfeucht to Eighteen',
+            'text': saarela_abstract,
+          }
+        ]
       },
       {
-        'img': '/assets/imgs/placeholder.png',
+        'img': '/assets/imgs/speakers/KV-small.jpg',
         'name': 'Kristina Vušković',
-        'title': 'content TBA',
         'website': 'https://engineering.leeds.ac.uk/staff/249/kristina_vuskovic',
-        'bio': vuskovic_bio
+        'sections': [
+          {
+            'title': 'Bio',
+            'text': vuskovic_bio,
+          },
+          {
+            'title': 'Structure of graph classes and algorithms',
+            'text': vuskovic_abstract,
+          }
+        ]
       }
     ],
     'abstract': [
@@ -132,7 +344,7 @@ export const content = {
         'name': 'Programme Committee',
         "chairs": [
           {
-            'name': 'Robert Mercas',
+            'name': 'Robert Mercaș',
             'location': 'Loughborough',
             'position': 'Co-Chair'
           },
@@ -180,7 +392,7 @@ export const content = {
             'location': 'Kyushu'
           },
           {
-            'name': 'Robert Mercas',
+            'name': 'Robert Mercaș',
             'location': 'Loughborough',
             'position': 'Co-Chair'
           },
@@ -235,6 +447,7 @@ export const content = {
             "location": "London"
           },
           {
+            'deceased': true,
             "name": "Aldo de Luca",
             "location": "Naples"
           },
@@ -297,7 +510,7 @@ export const content = {
             "location": "Loughborough"
           },
           {
-            "name": "Robert Mercas",
+            "name": "Robert Mercaș",
             "location": "Loughborough",
             "position": "Co-Chair"
           },
@@ -314,10 +527,77 @@ export const content = {
       }
     ]
   },
+  'conference_info': {
+    title: 'Conference Information',
+    groups: [
+      {
+        id: 'registration',
+        title: 'Registration',
+        content: registration
+      },
+      {
+        id: 'location',
+        title: 'Location',
+        content: location
+      },
+/*
+      {
+        id: 'schedule',
+        title: 'Schedule',
+        schedule: [
+          {
+            day: 'Monday',
+            date: '20/05/2019',
+            times: [
+              {
+                startTime: '9:00',
+                endTime: '11:00',
+                event: 'Some Event'
+              },
+              {
+                startTime: '11:00',
+                endTime: '13:00',
+                event: 'Reading a document'
+              },
+            ]
+          },
+          {
+            day: 'Tuesday',
+            date: '21/05/2019',
+            times: [
+              {
+                startTime: '9:00',
+                endTime: '11:00',
+                event: 'Some Event'
+              },
+              {
+                startTime: '11:00',
+                endTime: '13:00',
+                event: 'Reading a document'
+              },
+            ]
+          }
+        ]
+      }
+*/
+    ]
+  },
   'sponsors': [
     {
-      name: 'ATCS (European Association for Theoretical Computer Science)',
-      logo: '/assets/imgs/sponsors/Eatcslogo.jpg'
-    }
+      name: 'Institute of Advanced Studies at Loughborough University',
+      logo: '/assets/imgs/sponsors/IAS_COL.png'
+    },
+    {
+      name: 'Springer-Verlag',
+      logo: '/assets/imgs/sponsors/Springer_logo.png'
+    },
+    {
+      name: 'Algorithms',
+      logo: '/assets/imgs/sponsors/Algorithms_logo.png'
+    },
+    {
+      name: 'European Association for Theoretical Computer Science',
+      logo: '/assets/imgs/sponsors/EATCS_logo.jpg'
+    },
   ]
 };

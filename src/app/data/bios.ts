@@ -1,11 +1,35 @@
-export const manea_bio = `Some content here`;
+export const manea_bio = `Florin is a German Research Foundation (DFG) Principal Investigator at Kiel University (Germany) since 2011. He obtained his PhD in Computer Science from the Faculty of Mathematics and Computer Science, University of Bucharest. Until 2009, he held a Lecturer position at the University of Bucharest. In 2009 Florin was awarded the "Tudor Tanasescu" prize of the Romanian Academy for his works published in 2007, and moved with a Humboldt Fellowship to the Otto-von-Guericke University in Magdeburg.
 
-export const puzynina_bio = `Some content here`;
+He has published more than 100 papers, has been cited more than 900 times and his main interests are in Algorithms and Combinatorics on Words, Efficient Algorithms and Data Structures, Formal Languages and Automata, Logic, etc.`;
 
-export const restivo_bio = `Some content here`;
+export const manea_bio_orig = `Florin obtained his PhD in Computer Science, Summa cum Laude, at the Faculty of Mathematics and Computer Science, University of Bucharest, with a thesis in the area of bio-inspired computing and formal languages, entitled "Networks of Bio-Processors". Until 2009, he held a Lecturer position at the University of Bucharest. In 2009 he was awarded a Humboldt Fellowship at the Otto-von-Guericke University in Magdeburg, Germany. Since 2011, he works as Researcher (Principal Investigator) at the Kiel University, where he coordinated the research work on several grants he was awarded by the German Research Foundation (DFG).
 
-export const richomme_bio = `Some content here`;
+His main interests are Algorithms and Combinatorics on Words, Efficient Algorithms and Data Structures, Formal Languages and Automata, Logic, etc. He has published more than 100 papers, cited more than 900 times. Florin Manea presented contributed talks at conferences like STACS, ICALP, MFCS, etc., and published papers in journals such as JCSS, Inf. Comp., Informat. Sci., etc. Florin Manea is the Chairman of the Steering Committee of the Computability in Europe Conference Series, and he is a member of the Board of the  European Association for Computer Science Logic. He was a member of the Program Committee of conferences like STACS, DLT, FCT, CPM, SPIRE, etc.
 
-export const saarela_bio = `Some content here`;
+Florin was awarded in 2009 the "Tudor Tanasescu" of the Romanian Academy for his works published in 2007.`;
 
-export const vuskovic_bio = `Some content here`;
+
+
+export const puzynina_bio = `Svetlana is an associate professor at Saint Petersburg State University (Russia). She obtained her PhD from the Sobolev Institute of Mathematics in 2008 and spent several years at University of Turku, Finland, Ecole Normale Supérieure de Lyon, Université Paris Diderot, France.
+Svetlana's main field of expertise is combinatorics on words and its interactions with other fields of mathematics including symbolic dynamics, Ramsey theory and automata.`;
+
+
+
+export const restivo_bio = `Antonio is a Professor Emeritus at the University of Palermo, Italy. He received his degree in Physics in 1969 and changed his interests to Computer Science and from 1971 to 1981 he was researcher at the National Research Council (C.N.R.) in the Institute of Cybernetics of Naples, Italy. Since 1981 he has been a full professor at the University of Palermo. His research interests include: Automata Theory and Formal Languages, Combinatorics on Words, Theory of Codes, Symbolic Dynamics, Data Compression.  He was involved, often as a project leader, in several national and international projects. He supervised numerous PhD students, many of whom are now recognized scientists in various areas of Computer Science.`;
+
+export const restivo_bio_orig = `Antonio Restivo is Professor Emeritus at the University of Palermo (Italy). He received the degree in Physics in 1969. Then he moved his interests to Computer Science and from 1971 to 1981 he was researcher at the National Research Council (C.N.R.) in the Institute of Cybernetics of Naples, Italy. Since 1981 he is full professor at the University of Palermo. His research interests include: Automata Theory and Formal Languages, Combinatorics on Words, Theory of Codes, Symbolic Dynamics, Data Compression.  He was involved, often as a project leader, in several national and international projects. He supervised several PhD students, many of whom are now recognized scientists in various areas of Computer Science.`;
+
+
+
+export const richomme_bio = `Gwenaël is a Professor in Computer Sience at Université Paul-Valéry Montpellier 3 (France) since 2009. Previously he was an Associate Professor at Université de Picardie Jules Verne (Amiens, France). He is also a member of Escape team at LIRMM (Université de Montpellier, CNRS). He is interested in various aspects of words, more especially in combinatorics on words. Among the topics he studied (e.g., Sturmian words, episturmian words, palindromes, quasiperiodicity, power-free words), one of his favourite ones is "free monoid morphisms" (e.g., intrinsic useful properties, importance for the study of words).`;
+
+export const saarela_bio = `Aleksi is a postdoctoral researcher and adjunct professor at the Department of Mathematics and Statistics of the University of Turku (Finland). He received his doctorate in 2012 and has published over 30 articles in discrete mathematics, mostly in combinatorics on words.`;
+
+
+
+export const vuskovic_bio = `Kristina is a Professor of Algorithms and Combinatorics at the School of Computing, University of Leeds. After obtaining her PhD in Algorithms, Combinatorics and Optimization from the Carnegie Mellon University in 1994, she spent two years at University of Waterloo as NSERC Canada International Postdoctoral Fellow. She was an Assistant Professor at the University of Kentucky, before moving to Leeds in 2000.
+
+Kristina works at the interface of discrete mathematics and theoretical computer science, with particular expertise in structural graph theory and its algorithmic consequences. Her research contributions include the first polynomial time recognition algorithms for balanceable matrices, even-hole-free graphs and perfect graphs, Conforti and Rao Conjecture for linear balanced matrices, as well as combinatorial optimization algorithms for different hereditary graph classes.`;
+
+export const vuskovic_bio_orig = `Kristina is a Professor of Algorithms and Combinatorics at the School of Computing, University of Leeds. She graduated in Mathematics and Computer Science from the New York University in 1989, and obtained her PhD in Algorithms, Combinatorics and Optimization from the Carnegie Mellon University in 1994. She spent two years at University of Waterloo (Department of Combinatorics and Optimization) as NSERC Canada International Postdoctoral Fellow. She was an Assistant Professor at the University of Kentucky (Department of Mathematics), before moving to Leeds in 2000.
+Kristina works at the interface of discrete mathematics and theoretical computer science, with particular expertise in structural graph theory and its algorithmic consequences. Her research contributions include the first polynomial time recognition algorithms for balanceable matrices, even-hole-free graphs and perfect graphs, Conforti and Rao Conjecture for linear balanced matrices, as well as combinatorial optimization algorithms for different hereditary graph classes.`;
