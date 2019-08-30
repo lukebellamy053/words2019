@@ -2,7 +2,7 @@ import { Component, OnInit } from "@angular/core";
 import { ExternalStringPipe } from "../../pipes/external-string.pipe";
 
 @Component({
-  selector: "app-invited-speakers",
+  selector: "[app-invited-speakers]",
   templateUrl: "./invited-speakers.component.html",
   styleUrls: ["./invited-speakers.component.css"]
 })

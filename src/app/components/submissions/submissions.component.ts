@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ExternalStringPipe } from '../../pipes/external-string.pipe';
 
 @Component({
-  selector: 'app-submissions',
+  selector: '[app-submissions]',
   templateUrl: './submissions.component.html',
   styleUrls: ['./submissions.component.css']
 })

@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ExternalStringPipe } from '../../pipes/external-string.pipe';
 
 @Component({
-  selector: 'app-important-dates',
+  selector: '[app-important-dates]',
   templateUrl: './important-dates.component.html',
   styleUrls: ['./important-dates.component.css']
 })

@@ -3,7 +3,7 @@ import { ExternalStringPipe } from 'src/app/pipes/external-string.pipe';
 import { AppComponent } from '../../app.component';
 
 @Component({
-  selector: 'app-landing-section',
+  selector: '[app-landing-section]',
   templateUrl: './landing-section.component.html',
   styleUrls: ['./landing-section.component.css']
 })
