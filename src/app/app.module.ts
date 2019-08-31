@@ -15,6 +15,11 @@ import { AcceptedPapersComponent } from './components/accepted-papers/accepted-p
 import { ConferenceInfoComponent } from './components/conference-info/conference-info.component';
 import { MathjaxComponent } from './components/mathjax/mathjax.component';
 import { ParticipantsComponent } from './components/participants/participants.component';
+import { ConferenceProgrammeComponent } from './components/conference-programme/conference-programme.component';
+import { CommonModule } from '@angular/common';
+import { EventDetailsComponent } from './components/event-details/event-details.component';
+import { SocialEventsComponent } from './components/social-events/social-events.component';
+import { LocalInformationComponent } from './components/local-information/local-information.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,9 +35,14 @@ import { ParticipantsComponent } from './components/participants/participants.co
     AcceptedPapersComponent,
     ConferenceInfoComponent,
     MathjaxComponent,
-    ParticipantsComponent
+    ParticipantsComponent,
+    ConferenceProgrammeComponent,
+    EventDetailsComponent,
+    SocialEventsComponent,
+    LocalInformationComponent
   ],
   imports: [
+    CommonModule,
     BrowserModule,
     MarkdownModule.forRoot()
   ],

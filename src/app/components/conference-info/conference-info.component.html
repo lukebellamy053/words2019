@@ -1,0 +1,68 @@
+  <div class="content">
+    <div class="row">
+      <div class="col-12 col-md-8 mx-auto">
+        <div class="row">
+          <div class="col-12">
+            <h1>Registration / Travel</h1>
+          </div>
+        </div>
+        <section class="scope" *ngFor="let info of conferenceInfo">
+          <div class="row">
+            <div class="col-12">
+              <h3
+                class="pointer"
+                data-toggle="collapse"
+                attr.data-target="#{{ info.id }}"
+                aria-expanded="true"
+                attr.aria-controls="#{{ info.id }}"
+              >
+                {{ info.title }}
+                <i class="fas fa-caret-down"></i>
+              </h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div
+                *ngIf="info.content"
+                class="collapse show"
+                id="{{ info.id }}"
+                innerHtml="{{ info.content }}"
+              ></div>
+              <div *ngIf="info.schedule" class="collapse show" id="{{ info.id }}">
+                <div *ngFor="let day of info.schedule" class="row">
+                  <div class="col-12">
+                    <div class="row scheduleDayTitle">
+                      <div class="col-12">
+                        <h5>{{ day.day }} - {{ day.date }}</h5>
+                      </div>
+                    </div>
+                    <div class="row scheduleDayTable">
+                      <div class="col-12">
+                        <table class="table">
+                          <thead>
+                            <tr>
+                              <th scope="col">Time</th>
+                              <th scope="col">Event</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr *ngFor="let time of day.times">
+                              <th scope="row">
+                                {{ time.startTime }} - {{ time.endTime }}
+                              </th>
+                              <td>{{ time.event }}</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>

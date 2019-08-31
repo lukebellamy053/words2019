@@ -1,0 +1,7 @@
+section {
+    text-align: left;
+}
+
+.scheduleDayTitle, .scheduleDayTable {
+    margin-top: 1em;
+}

@@ -1,0 +1,39 @@
+<div class="row">
+  <div class="col-12">
+    <h3
+      class="pointer"
+      data-toggle="collapse"
+      data-target="#acceptedPapers"
+      aria-expanded="true"
+      aria-controls="#acceptedPapers"
+    >
+      {{ "submissions accepted_papers title" | externalString }}
+      <i class="fas fa-caret-down"></i>
+    </h3>
+  </div>
+</div>
+<div class="row">
+  <div class="col-12">
+    <div class="collapse show" id="acceptedPapers">
+      <div class="row papersList">
+        <div class="col-12 mx-auto papersList">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Author(s)</th>
+                <th scope="col">Paper Title</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let paper of acceptedPapers">
+                <th scope="row" *ngIf="paper.authors.length > 1">{{getAuthorString(paper.authors)}}</th>
+                <th scope="row" *ngIf="paper.authors.length == 1">{{ paper.authors }}</th>
+                <td>{{ paper.title }}</td> 
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

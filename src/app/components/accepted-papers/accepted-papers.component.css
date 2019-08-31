@@ -1,0 +1,16 @@
+.paperTitle, .paperAuthor {
+    text-align: center;
+    font-weight: 500;
+}
+
+.paperAuthor {
+    font-weight: 500;
+}
+
+.paperTitle {
+    font-weight: 300;
+}
+
+.papersList {
+    margin-top: 1em;
+}
